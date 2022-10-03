@@ -646,7 +646,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
     ID3DBlob* vsBlob = nullptr; // 頂点シェーダオブジェクト
     ID3DBlob* psBlob = nullptr; // ピクセルシェーダオブジェクト
     ID3DBlob* errorBlob = nullptr; // エラーオブジェクト
-
+     
     // 頂点シェーダの読み込みとコンパイル
     result = D3DCompileFromFile(
         L"Resources/shaders/BasicVS.hlsl",  // シェーダファイル名
